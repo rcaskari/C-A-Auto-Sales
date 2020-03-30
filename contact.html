@@ -134,16 +134,16 @@
             <div class="col-md-8">
                 <form name="contact" method="POST" data-netlify="true" >
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Your name" required>
+                        <label><input type="text" name="name" class="form-control" placeholder="Your name"  required></label>
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Email Address" required>
+                        <input type="email" name="email" class="form-control" placeholder="Email Address" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Subject">
+                        <input type="text" name="subject" class="form-control" placeholder="Subject" required>
                     </div>
                     <div class="form-group">
-                        <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                        <textarea name="message" id="" cols="30" rows="10" class="form-control" required></textarea>
                     </div>
                     <input type="submit" class="btn btn-primary" value="Send Message">
                 </form>
